@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+$ff-s:"Ubuntu",sans-serif;
+
+@mixin font-settings($fs: 1rem,$fw:400,$lh:26px,$color:$pColor) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    color: $color;
+}

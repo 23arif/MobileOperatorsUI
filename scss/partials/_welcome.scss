@@ -1,0 +1,18 @@
+#welcome-banner {
+  width: 100%;
+  height: 90vh;
+  background: $blue;
+  background: linear-gradient(
+    169deg,
+    $blue 0%,
+    $dark-blue 0%,
+    rgba(40, 160, 181, 1) 100%
+  );
+  @include flex();
+ 
+  .row{
+    .text{
+      @include flex($ai:flex-start,$fd:column);
+    }
+  }
+}

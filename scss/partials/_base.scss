@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@mixin flex($jc:center,$ai:center,$fd:unset) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+}
+body {
+  font-family: $ff-s;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h1 {
+  @include font-settings(
+    $fs: 3.125rem,
+    $fw: 700,
+    $lh: 65px,
+    $color: $secondaryColor
+  );
+}
+
+h2 {
+  @include font-settings(
+    $fs: 2.5rem,
+    $fw: 700,
+    $lh: 40px,
+    $color: $primaryColor
+  );
+}
+
+h3 {
+  @include font-settings($fs: 2rem, $fw: 500, $lh: 31px, $color: $primaryColor);
+}
+
+p {
+  @include font-settings();
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+}
+.btn-gradient {
+  background-image: linear-gradient(
+    to right,
+    $secondaryColor 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+  display: block;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $whiteColor;
+}
+.btn-gradient:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
