@@ -45,6 +45,10 @@ h3 {
   @include font-settings($fs: 2rem, $fw: 500, $lh: 31px, $color: $primaryColor);
 }
 
+h4 {
+  @include font-settings($fs: 1.5rem, $fw: 900, $lh: 31px, $color: $primaryColor);
+}
+
 p {
   @include font-settings();
 }
@@ -65,9 +69,9 @@ button {
     #eb3349 100%
   );
   display: block;
-  transition: 0.5s;
   background-size: 200% auto;
   color: $whiteColor;
+  font-weight: 700;
 }
 .btn-gradient:hover {
   background-position: right center; /* change the direction of the change here */

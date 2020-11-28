@@ -14,5 +14,6 @@
     .text{
       @include flex($ai:flex-start,$fd:column);
     }
+    
   }
 }

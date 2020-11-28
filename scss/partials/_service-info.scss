@@ -1,0 +1,62 @@
+#service-info {
+  width: 100%;
+  background-color: $whiteColor;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 60px 40px;
+
+  .service-info-desc {
+    padding: 60px;
+    @include flex($jc: flex-start, $ai: flex-start, $fd: column);
+    h2::after {
+      content: "";
+      display: block;
+      margin-top: -10px;
+      width: 100%;
+      height: 20px;
+      background: linear-gradient(-90deg, rgba(240, 104, 80, 0.6), #fde5e2);
+    }
+    p {
+      color: $pSecondaryColor;
+      margin: 2rem 0;
+    }
+  }
+  .service-info-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-gap: 10%;
+    .service-info-item {
+      margin: 20px;
+      @include flex($ai: flex-start);
+
+      .service-info-items-icon {
+        background-image: url(../../img/icon-bg.png);
+        background-position: center;
+        width: 115px;
+        height: 115px;
+        @include flex();
+        i {
+          color: $secondaryColor;
+          font-size: 40px;
+        }
+      }
+
+      .service-info-items-text {
+        width: calc(100% - 115px);
+        p {
+          margin-top: 1rem;
+          @include font-settings($color: $pSecondaryColor, $fs: 14px);
+        }
+        h4{
+            transition: all .3s ease-in-out;
+
+        };
+        h4:hover{
+            color: $secondaryColor;
+            transition: all .3s ease-in-out;
+        }
+      }
+    }
+  }
+}

@@ -11,5 +11,26 @@
     0% 70%,
     0% 30%
   );
-  
-}
+  hr {
+    width: 40%;
+    height: 2px;
+    margin: 2.5rem 0;
+    background: $secondaryColor;
+    background: linear-gradient(
+      98deg,
+      $secondaryColor 0%,
+      rgba(240, 104, 80, 1) 0%,
+      rgba(255, 138, 117, 1) 55%,
+      rgba(255, 176, 161, 1) 75%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    border-radius: 0 50% 50% 0;
+  };
+  .change-p-color{
+    color:$dark-blue;
+    font-weight: 700;
+  };
+  p{
+    color: $pSecondaryColor
+  }
+};

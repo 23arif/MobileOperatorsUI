@@ -328,6 +328,13 @@ h3 {
   color: #010f54;
 }
 
+h4 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 31px;
+  color: #010f54;
+}
+
 p {
   font-size: 1rem;
   font-weight: 400;
@@ -347,9 +354,9 @@ button {
 .btn-gradient {
   background-image: linear-gradient(to right, #f06850 0%, #f45c43 51%, #eb3349 100%);
   display: block;
-  transition: 0.5s;
   background-size: 200% auto;
   color: #fff;
+  font-weight: 700;
 }
 
 .btn-gradient:hover {
@@ -429,6 +436,96 @@ button {
   background: #f8fafb;
   padding: 150px;
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+#desc hr {
+  width: 40%;
+  height: 2px;
+  margin: 2.5rem 0;
+  background: #f06850;
+  background: linear-gradient(98deg, #f06850 0%, #f06850 0%, #ff8a75 55%, #ffb0a1 75%, white 100%);
+  border-radius: 0 50% 50% 0;
+}
+#desc .change-p-color {
+  color: #0a0a77;
+  font-weight: 700;
+}
+#desc p {
+  color: #035f91;
+}
+
+#service-info {
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 60px 40px;
+}
+#service-info .service-info-desc {
+  padding: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#service-info .service-info-desc h2::after {
+  content: "";
+  display: block;
+  margin-top: -10px;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(-90deg, rgba(240, 104, 80, 0.6), #fde5e2);
+}
+#service-info .service-info-desc p {
+  color: #035f91;
+  margin: 2rem 0;
+}
+#service-info .service-info-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 250px 250px;
+  grid-gap: 10%;
+}
+#service-info .service-info-items .service-info-item {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: unset;
+}
+#service-info .service-info-items .service-info-item .service-info-items-icon {
+  background-image: url(../../img/icon-bg.png);
+  background-position: center;
+  width: 115px;
+  height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: unset;
+}
+#service-info .service-info-items .service-info-item .service-info-items-icon i {
+  color: #f06850;
+  font-size: 40px;
+}
+#service-info .service-info-items .service-info-item .service-info-items-text {
+  width: calc(100% - 115px);
+}
+#service-info .service-info-items .service-info-item .service-info-items-text p {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #035f91;
+}
+#service-info .service-info-items .service-info-item .service-info-items-text h4 {
+  transition: all 0.3s ease-in-out;
+}
+#service-info .service-info-items .service-info-item .service-info-items-text h4:hover {
+  color: #f06850;
+  transition: all 0.3s ease-in-out;
+}
+
+footer {
+  background: black;
 }
 
 /*# sourceMappingURL=style.css.map */
