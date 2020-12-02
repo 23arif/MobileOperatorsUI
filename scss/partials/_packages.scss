@@ -1,0 +1,36 @@
+#packages {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f8fb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding:3em 0;
+}
+#packages h4{
+    font-weight: bold;
+}
+.packages-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding:1em
+}
+.package {
+  padding: 4em;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 16%);
+}
+.package h3 {
+  border-bottom: 3px solid $primaryColor;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.package h4 {
+  margin: 1em 0;
+}
+.package p {
+  @include font-settings($fs: 16px, $fw: 500, $lh: 24px, $color: $primaryColor);
+  text-align: center;
+}
