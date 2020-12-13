@@ -657,24 +657,174 @@ button {
 #azercell {
   height: 100vh;
   width: 100%;
-  background-image: url(/img/azercell-item.png);
   position: relative;
+}
+#azercell .azercell-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/img/azercell-2.jpg);
+  clip-path: polygon(0 0, 100% 0%, 0 61%);
 }
 #azercell .bg {
   background: #031efe;
-  background: linear-gradient(90deg, #0a0a77, #F72585, #7209B7, #3A0CA3, #4361EE, #4CC9F0);
+  background: linear-gradient(90deg, #0a0a77, #f72585, #7209b7, #5c2583, #3a0ca3);
   background-size: 1000% 1000%;
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
   clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
 }
 #azercell p {
-  color: black;
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  bottom: 20%;
+  right: 5%;
+  font-size: 21px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#bakcell {
+  height: 100vh;
+  width: 100%;
   position: relative;
+}
+#bakcell .bakcell-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/img/bakcell.jpg);
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0%, 0 61%);
+}
+#bakcell .bg {
+  background: #031efe;
+  background: linear-gradient(90deg, #e00034, #f71b4f, #fd3463, #dd234f, #a01636, #c91f46, #850522);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
+}
+#bakcell p {
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  bottom: 20%;
+  right: 5%;
+  font-size: 21px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#nar {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+#nar .nar-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(/img/nar.png);
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0%, 0 61%);
+}
+#nar .bg {
+  background: #031efe;
+  background: linear-gradient(90deg, #b51144, #e00034, #f71b4f, #fd3463, #a01636, #c91f46, #850522);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
+}
+#nar p {
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  bottom: 20%;
+  right: 5%;
+  font-size: 21px;
 }
 
 @-webkit-keyframes AnimationName {

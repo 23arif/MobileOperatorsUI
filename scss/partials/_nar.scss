@@ -1,0 +1,78 @@
+#nar {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    .nar-bg {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top:0;
+      left:0;
+      background-image: url(/img/nar.png);
+      background-position: top;
+      clip-path: polygon(0 0, 100% 0%, 0 61%);
+    }
+    .bg {
+      background: $blue;
+      background: linear-gradient(
+        90deg,
+        #b51144,
+        #e00034,
+        #f71b4f,
+        #fd3463,
+        #a01636,
+        #c91f46,
+        #850522,
+      );
+      background-size: 1000% 1000%;
+      -webkit-animation: AnimationName 30s ease infinite;
+      -moz-animation: AnimationName 30s ease infinite;
+      animation: AnimationName 30s ease infinite;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
+    }
+    p {
+      color: #fff;
+      position: absolute;
+      width: 60%;
+      bottom: 20%;
+      right:5%;
+      font-size: 21px;
+    }
+  }
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
