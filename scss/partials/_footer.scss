@@ -41,3 +41,30 @@ footer li {
   text-align: left;
   margin-top: 10px;
 }
+
+footer a,
+footer a:hover {
+  color: #fff;
+  position: relative;
+}
+footer a:before,
+footer a:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 50%;
+  height: 2px;
+  width: 0px;
+  background-color: #fff;
+}
+footer a:before {
+  right: 50%;
+}
+footer a:after {
+  left: 50%;
+}
+footer a:hover:before,
+footer a:hover:after {
+  width: 50%;
+  transition: width 0.6s;
+}

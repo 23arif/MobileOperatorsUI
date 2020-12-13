@@ -1,0 +1,32 @@
+#contact {
+  background-repeat: repeat;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 2em;
+  justify-content: center;
+  align-items: center;
+  // border: 1px solid red;
+  padding: 5em;
+  position: relative;
+  .blur {
+    position: absolute;
+    background-image: url(/img/istockphoto-1183632265-612x612.jpg);
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+  }
+  .contact-form,
+  .contact-map {
+    position: relative;
+  }
+  .contact-form {
+    label {
+      text-shadow: 2px 2px #fff;
+      font-weight: bold;
+    }
+    input {
+      box-shadow: 0 0 20px 0 rgba($color: #000000, $alpha: 0.5);
+    }
+  }
+}
