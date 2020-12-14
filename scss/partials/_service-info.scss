@@ -22,19 +22,20 @@
     }
   }
   .service-info-items {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 250px 250px;
-    grid-gap: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     .service-info-item {
-      margin: 20px;
       @include flex($ai: flex-start);
-
+      width:400px;
       .service-info-items-icon {
         background-image: url(../../img/icon-bg.png);
         background-position: center;
-        width: 115px;
-        height: 115px;
+        width: 70px;
+        height: 70px;
+        margin-right: 1em;
+        border-radius: 50%;
+        overflow: hidden;
         @include flex();
         i {
           color: $secondaryColor;
@@ -48,13 +49,12 @@
           margin-top: 1rem;
           @include font-settings($color: $pSecondaryColor, $fs: 14px);
         }
-        h4{
-            transition: all .3s ease-in-out;
-
-        };
-        h4:hover{
-            color: $secondaryColor;
-            transition: all .3s ease-in-out;
+        h4 {
+          transition: all 0.3s ease-in-out;
+        }
+        h4:hover {
+          color: $secondaryColor;
+          transition: all 0.3s ease-in-out;
         }
       }
     }

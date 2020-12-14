@@ -64,17 +64,57 @@ button {
 .btn-gradient {
   background-image: linear-gradient(
     to right,
-    $secondaryColor 0%,
-    #f45c43 51%,
-    #eb3349 100%
+    $secondaryColor,
+    #f45c43,
+    #eb3349,
+    #f32039,
   );
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
   display: block;
   background-size: 200% auto;
   color: $whiteColor;
   font-weight: 700;
 }
 .btn-gradient:hover {
-  background-position: right center; /* change the direction of the change here */
+  // background-position: right center; /* change the direction of the change here */
   color: #fff;
+  transform: scale(1.05);
   text-decoration: none;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
