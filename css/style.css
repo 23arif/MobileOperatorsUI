@@ -1,218 +1,175 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 html {
-    line-height: 1.15;
-    /* 1 */
-    -webkit-text-size-adjust: 100%;
-    /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
-
 
 /* Sections
    ========================================================================== */
-
-
 /**
  * Remove the margin in all browsers.
  */
-
 body {
-    margin: 0;
+  margin: 0;
 }
-
 
 /**
  * Render the `main` element consistently in IE.
  */
-
 main {
-    display: block;
+  display: block;
 }
-
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-
 h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
+  font-size: 2em;
+  margin: 0.67em 0;
 }
-
 
 /* Grouping content
    ========================================================================== */
-
-
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-
 hr {
-    box-sizing: content-box;
-    /* 1 */
-    height: 0;
-    /* 1 */
-    overflow: visible;
-    /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
-
 
 /* Text-level semantics
    ========================================================================== */
-
-
 /**
  * Remove the gray background on active links in IE 10.
  */
-
 a {
-    background-color: transparent;
+  background-color: transparent;
 }
-
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-
 abbr[title] {
-    border-bottom: none;
-    /* 1 */
-    text-decoration: underline;
-    /* 2 */
-    text-decoration: underline dotted;
-    /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
-
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-
 b,
 strong {
-    font-weight: bolder;
+  font-weight: bolder;
 }
-
 
 /**
  * Add the correct font size in all browsers.
  */
-
 small {
-    font-size: 80%;
+  font-size: 80%;
 }
-
 
 /* Embedded content
    ========================================================================== */
-
-
 /**
  * Remove the border on images inside links in IE 10.
  */
-
 img {
-    border-style: none;
+  border-style: none;
 }
-
 
 /* Forms
    ========================================================================== */
-
-
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-
 button,
 input,
 optgroup,
 select,
 textarea {
-    font-family: inherit;
-    /* 1 */
-    font-size: 100%;
-    /* 1 */
-    line-height: 1.15;
-    /* 1 */
-    margin: 0;
-    /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
-
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-
 button,
 input {
-    /* 1 */
-    overflow: visible;
+  /* 1 */
+  overflow: visible;
 }
-
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-
 button,
 select {
-    /* 1 */
-    text-transform: none;
+  /* 1 */
+  text-transform: none;
 }
-
 
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-
 button,
 [type=button],
 [type=reset],
 [type=submit] {
-    -webkit-appearance: button;
+  -webkit-appearance: button;
 }
-
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-
 button::-moz-focus-inner,
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
 [type=submit]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
+  border-style: none;
+  padding: 0;
 }
-
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
-
 button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-    outline: 1px dotted ButtonText;
+  outline: 1px dotted ButtonText;
 }
-
 
 /**
  * Correct the padding in Firefox.
  */
-
 fieldset {
-    padding: 0.35em 0.75em 0.625em;
+  padding: 0.35em 0.75em 0.625em;
 }
-
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -220,933 +177,834 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-
 legend {
-    box-sizing: border-box;
-    /* 1 */
-    color: inherit;
-    /* 2 */
-    display: table;
-    /* 1 */
-    max-width: 100%;
-    /* 1 */
-    padding: 0;
-    /* 3 */
-    white-space: normal;
-    /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
-
 
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-
 progress {
-    vertical-align: baseline;
+  vertical-align: baseline;
 }
-
 
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-
 textarea {
-    overflow: auto;
+  overflow: auto;
 }
-
 
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-
 [type=checkbox],
 [type=radio] {
-    box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
-
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
-    height: auto;
+  height: auto;
 }
-
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-
 [type=search] {
-    -webkit-appearance: textfield;
-    /* 1 */
-    outline-offset: -2px;
-    /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
-
 
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-
 [type=search]::-webkit-search-decoration {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
-
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-
 ::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    /* 1 */
-    font: inherit;
-    /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
-
 
 /* Interactive
    ========================================================================== */
-
-
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-
 details {
-    display: block;
+  display: block;
 }
-
 
 /*
  * Add the correct display in all browsers.
  */
-
 summary {
-    display: list-item;
+  display: list-item;
 }
-
 
 /* Misc
    ========================================================================== */
-
-
 /**
  * Add the correct display in IE 10+.
  */
-
 template {
-    display: none;
+  display: none;
 }
-
 
 /**
  * Add the correct display in IE 10.
  */
-
 [hidden] {
-    display: none;
+  display: none;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 body {
-    font-family: "Ubuntu", sans-serif;
-    line-height: 1.6;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.6;
 }
 
 img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 3.125rem;
-    font-weight: 700;
-    line-height: 65px;
-    color: #f06850;
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 65px;
+  color: #f06850;
 }
 
 h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 40px;
-    color: #010f54;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 40px;
+  color: #010f54;
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 31px;
-    color: #010f54;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 31px;
+  color: #010f54;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 31px;
-    color: #010f54;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 31px;
+  color: #010f54;
 }
 
 p {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 26px;
-    color: #eef3f6;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #eef3f6;
 }
 
 button {
-    border: none;
-    outline: none;
-    border-radius: 50px;
-    padding: 15px 45px;
-    text-align: center;
-    transition: 0.5s;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
 }
 
 .btn-gradient {
-    background-image: linear-gradient(to right, #f06850, #f45c43, #eb3349, #f32039);
-    background-size: 800% 800%;
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
-    display: block;
-    background-size: 200% auto;
-    color: #fff;
-    font-weight: 700;
+  background-image: linear-gradient(to right, #f06850, #f45c43, #eb3349, #f32039);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
+  display: block;
+  background-size: 200% auto;
+  color: #fff;
+  font-weight: 700;
 }
 
 .btn-gradient:hover {
-    color: #fff;
-    transform: scale(1.05);
-    text-decoration: none;
+  color: #fff;
+  transform: scale(1.05);
+  text-decoration: none;
 }
 
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 #nav {
-    width: 100%;
-    height: 80px;
-    background: #0a0a77;
-    position: relative;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #0a0a77;
+  position: relative;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 #nav .row {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-
 #nav .row img {
-    width: 100%;
-    height: 60px;
+  width: 100%;
+  height: 60px;
 }
-
 #nav .row .menu {
-    height: 60px;
+  height: 60px;
 }
-
 #nav .row .menu ul {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
 #nav .row .menu ul li {
-    padding: 10px 25px;
-    margin: 0 10px;
+  padding: 10px 25px;
+  margin: 0 10px;
 }
-
 #nav .row .menu ul li a {
-    font-size: 1rem;
-    font-weight: bold;
-    line-height: 26px;
-    color: #eef3f6;
-    position: relative;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 26px;
+  color: #eef3f6;
+  position: relative;
 }
-
-#nav .row .menu ul li a::after,
+#nav .row .menu ul li a::after, #nav .row .menu ul li a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  bottom: -5px;
+  background-color: #f06850;
+  transition: width 0.3s;
+}
 #nav .row .menu ul li a::before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    width: 0px;
-    bottom: -5px;
-    background-color: #f06850;
-    transition: width 0.3s;
+  right: 50%;
 }
-
-#nav .row .menu ul li a::before {
-    right: 50%;
-}
-
 #nav .row .menu ul li a::after {
-    left: 50%;
+  left: 50%;
 }
-
-#nav .row .menu ul li a:hover::before,
-#nav .row .menu ul li a:hover::after {
-    width: 50%;
+#nav .row .menu ul li a:hover::before, #nav .row .menu ul li a:hover::after {
+  width: 50%;
 }
 
 #welcome-banner {
-    width: 100%;
-    height: 90vh;
-    background: #031efe;
-    background: linear-gradient(90deg, #0a0a77, #0d0d96, #0f0fa9, #1212ce, #1e1eeb, #3131ed, #4343ef, #6969f2);
-    background-size: 1400% 1400%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: unset;
+  width: 100%;
+  height: 90vh;
+  background: #031efe;
+  background: linear-gradient(90deg, #0a0a77, #0d0d96, #0f0fa9, #1212ce, #1e1eeb, #3131ed, #4343ef, #6969f2);
+  background-size: 1400% 1400%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: unset;
 }
-
 #welcome-banner .row .text {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
-
 #welcome-banner .row .text h1 {
-    color: transparent;
-    background: linear-gradient(90deg, #f06850, white);
-    -webkit-background-clip: text;
-    background-size: 400% 400%;
-    -webkit-animation: AnimationName 15s ease infinite;
-    -moz-animation: AnimationName 15s ease infinite;
-    animation: AnimationName 15s ease infinite;
+  color: transparent;
+  background: linear-gradient(90deg, #f06850, white);
+  -webkit-background-clip: text;
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 15s ease infinite;
+  -moz-animation: AnimationName 15s ease infinite;
+  animation: AnimationName 15s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 #top-navigations {
-    width: 100%;
-    padding: 80px;
+  width: 100%;
+  padding: 80px;
 }
-
 #top-navigations .row div {
-    padding: 35px;
-    margin: 0 auto;
-    box-shadow: 0px 1px 15px 1px rgba(19, 68, 165, 0.1);
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+  padding: 35px;
+  margin: 0 auto;
+  box-shadow: 0px 1px 15px 1px rgba(19, 68, 165, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
-
 #top-navigations .row div img {
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    margin: 1em;
-    margin-left: 0;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 1em;
+  margin-left: 0;
 }
-
 #top-navigations .row div #nar {
-    height: 60px;
-    border-radius: 0;
+  height: 60px;
+  border-radius: 0;
 }
-
 #top-navigations .row div p {
-    color: #035f91;
+  color: #035f91;
 }
-
 #top-navigations .row div:hover {
-    transform: translateY(-15px);
-    transition: all 0.3s ease-in-out;
+  transform: translateY(-15px);
+  transition: all 0.3s ease-in-out;
 }
 
 #desc {
-    background: #f8fafb;
-    padding: 150px;
-    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  background: #f8fafb;
+  padding: 150px;
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
-
 #desc hr {
-    width: 40%;
-    height: 2px;
-    margin: 2.5rem 0;
-    background: #f06850;
-    background: linear-gradient(98deg, #f06850 0%, #f06850 0%, #ff8a75 55%, #ffb0a1 75%, white 100%);
-    border-radius: 0 50% 50% 0;
+  width: 40%;
+  height: 2px;
+  margin: 2.5rem 0;
+  background: #f06850;
+  background: linear-gradient(98deg, #f06850 0%, #f06850 0%, #ff8a75 55%, #ffb0a1 75%, white 100%);
+  border-radius: 0 50% 50% 0;
 }
-
 #desc .change-p-color {
-    color: #0a0a77;
-    font-weight: 700;
+  color: #0a0a77;
+  font-weight: 700;
 }
-
 #desc p {
-    color: #035f91;
+  color: #035f91;
 }
 
 #service-info {
-    width: 100%;
-    background-color: #fff;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    padding: 60px 40px;
+  width: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 60px 40px;
 }
-
 #service-info .service-info-desc {
-    padding: 60px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+  padding: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
-
 #service-info .service-info-desc h2::after {
-    content: "";
-    display: block;
-    margin-top: -10px;
-    width: 100%;
-    height: 20px;
-    background: linear-gradient(-90deg, rgba(240, 104, 80, 0.6), #fde5e2);
+  content: "";
+  display: block;
+  margin-top: -10px;
+  width: 100%;
+  height: 20px;
+  background: linear-gradient(-90deg, rgba(240, 104, 80, 0.6), #fde5e2);
 }
-
 #service-info .service-info-desc p {
-    color: #035f91;
-    margin: 2rem 0;
+  color: #035f91;
+  margin: 2rem 0;
 }
-
 #service-info .service-info-items {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
 #service-info .service-info-items .service-info-item {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: unset;
-    width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: unset;
+  width: 400px;
 }
-
 #service-info .service-info-items .service-info-item .service-info-items-icon {
-    background-image: url(../img/icon-bg.png);
-    background-position: center;
-    width: 70px;
-    height: 70px;
-    margin-right: 1em;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: unset;
+  background-image: url(../../img/icon-bg.png);
+  background-position: center;
+  width: 70px;
+  height: 70px;
+  margin-right: 1em;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: unset;
 }
-
 #service-info .service-info-items .service-info-item .service-info-items-icon i {
-    color: #f06850;
-    font-size: 40px;
+  color: #f06850;
+  font-size: 40px;
 }
-
 #service-info .service-info-items .service-info-item .service-info-items-text {
-    width: calc(100% - 115px);
+  width: calc(100% - 115px);
 }
-
 #service-info .service-info-items .service-info-item .service-info-items-text p {
-    margin-top: 1rem;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
-    color: #035f91;
+  margin-top: 1rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #035f91;
 }
-
 #service-info .service-info-items .service-info-item .service-info-items-text h4 {
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-
 #service-info .service-info-items .service-info-item .service-info-items-text h4:hover {
-    color: #f06850;
-    transition: all 0.3s ease-in-out;
+  color: #f06850;
+  transition: all 0.3s ease-in-out;
 }
 
 #packages {
-    width: 100%;
-    background-color: #f4f8fb;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    padding: 3em 0;
+  width: 100%;
+  background-color: #f4f8fb;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 3em 0;
 }
 
 #packages h4 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .packages-container {
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1em;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
 }
 
 .package {
-    padding: 4em;
-    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.16);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  padding: 4em;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .package h2 {
-    padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .package h3 {
-    border-bottom: 3px solid #010f54;
-    text-align: center;
-    padding-bottom: 10px;
+  border-bottom: 3px solid #010f54;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .package h4 {
-    margin: 1em 0;
+  margin: 1em 0;
 }
 
 .package p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    color: #010f54;
-    text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #010f54;
+  text-align: center;
 }
 
 #contact {
-    background-repeat: repeat;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 2em;
-    justify-content: center;
-    align-items: center;
-    padding: 5em;
-    position: relative;
+  background-repeat: repeat;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 2em;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  position: relative;
 }
-
 #contact .blur {
-    position: absolute;
-    background-image: url(../img/istockphoto-1183632265-612x612.jpg);
-    filter: blur(3px);
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  background-image: url(../img/istockphoto-1183632265-612x612.jpg);
+  filter: blur(3px);
+  width: 100%;
+  height: 100%;
 }
-
 #contact .contact-form,
 #contact .contact-map {
-    position: relative;
+  position: relative;
 }
-
 #contact .contact-form label {
-    text-shadow: 2px 2px #fff;
-    font-weight: bold;
+  text-shadow: 2px 2px #fff;
+  font-weight: bold;
 }
-
 #contact .contact-form input {
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 #azercell {
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
-
 #azercell .azercell-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../img/azercell-2.jpg);
-    clip-path: polygon(0 0, 100% 0%, 0 61%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/azercell-2.jpg);
+  clip-path: polygon(0 0, 100% 0%, 0 61%);
 }
-
 #azercell .bg {
-    background: #031efe;
-    background: linear-gradient(90deg, #0a0a77, #f72585, #7209b7, #5c2583, #3a0ca3);
-    background-size: 1000% 1000%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
+  background: #031efe;
+  background: linear-gradient(90deg, #0a0a77, #f72585, #7209b7, #5c2583, #3a0ca3);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
 }
-
 #azercell p {
-    color: #fff;
-    position: absolute;
-    width: 60%;
-    bottom: 20%;
-    right: 5%;
-    font-size: 21px;
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  bottom: 20%;
+  right: 5%;
+  font-size: 21px;
 }
 
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 #bakcell {
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
-
 #bakcell .bakcell-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../img/bakcell.jpg);
-    background-position: top;
-    clip-path: polygon(0 0, 100% 0%, 0 61%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/bakcell.jpg);
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0%, 0 61%);
 }
-
 #bakcell .bg {
-    background: #031efe;
-    background: linear-gradient(90deg, #e00034, #f71b4f, #fd3463, #dd234f, #a01636, #c91f46, #850522);
-    background-size: 1000% 1000%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
+  background: #031efe;
+  background: linear-gradient(90deg, #e00034, #f71b4f, #fd3463, #dd234f, #a01636, #c91f46, #850522);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
 }
-
 #bakcell p {
-    color: #fff;
-    position: absolute;
-    width: 60%;
-    bottom: 20%;
-    right: 5%;
-    font-size: 21px;
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  bottom: 20%;
+  right: 5%;
+  font-size: 21px;
 }
 
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 #nar {
-    height: 100vh;
-    width: 100%;
-    position: relative;
+  height: 100vh;
+  width: 100%;
+  position: relative;
 }
-
 #nar .nar-bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../img/nar.png);
-    background-position: top;
-    clip-path: polygon(0 0, 100% 0%, 0 61%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../img/nar.png);
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0%, 0 61%);
 }
-
 #nar .bg {
-    background: #031efe;
-    background: linear-gradient(90deg, #b51144, #e00034, #f71b4f, #fd3463, #a01636, #c91f46, #850522);
-    background-size: 1000% 1000%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
+  background: #031efe;
+  background: linear-gradient(90deg, #b51144, #e00034, #f71b4f, #fd3463, #a01636, #c91f46, #850522);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  clip-path: polygon(0 61%, 100% 0, 100% 100%, 0% 100%);
 }
-
 #nar p {
-    color: #fff;
-    position: absolute;
-    width: 60%;
-    bottom: 20%;
-    right: 5%;
-    font-size: 21px;
+  color: #fff;
+  position: absolute;
+  width: 60%;
+  bottom: 20%;
+  right: 5%;
+  font-size: 21px;
 }
 
 @-webkit-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @-moz-keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 @keyframes AnimationName {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-
 footer {
-    width: 100%;
-    background-color: #00082e;
-    position: absolute;
+  width: 100%;
+  background-color: #00082e;
+  position: absolute;
 }
 
 footer div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    color: #fff;
-    padding: 2em;
-    line-height: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #fff;
+  padding: 2em;
+  line-height: 40px;
 }
 
 footer .footer-logo p {
-    width: 70%;
-    margin-top: 20px;
+  width: 70%;
+  margin-top: 20px;
 }
 
-footer h4 {
-    color: #fff;
-    font-weight: bold;
-    position: relative;
-    text-decoration: underline;
-}
-
-footer h3::after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: #fff;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
+footer h3 {
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  text-decoration: underline;
 }
 
 footer .footer-logo,
 .help-line,
 .menu-line {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 footer li {
-    width: 160px;
-    text-align: left;
-    margin-top: 10px;
+  width: 160px;
+  text-align: left;
+  margin-top: 10px;
 }
 
 footer a,
 footer a:hover {
-    color: #fff;
-    position: relative;
+  color: #fff;
+  position: relative;
 }
 
 footer a:before,
 footer a:after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    right: 50%;
-    height: 2px;
-    width: 0px;
-    background-color: #fff;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 50%;
+  height: 2px;
+  width: 0px;
+  background-color: #fff;
 }
 
 footer a:before {
-    right: 50%;
+  right: 50%;
 }
 
 footer a:after {
-    left: 50%;
+  left: 50%;
 }
 
 footer a:hover:before,
 footer a:hover:after {
-    width: 50%;
-    transition: width 0.6s;
+  width: 50%;
+  transition: width 0.6s;
 }
-
 
 /*# sourceMappingURL=style.css.map */
